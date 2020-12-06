@@ -316,9 +316,9 @@ header h1 {
 header h1 a {
     display: inline-block;
     overflow: hidden;
-    font-size: 0;
+    /* font-size: 0; */
     line-height: 0;    
-    text-indent: -999px;
+    /* text-indent: -999px; */
     transition: 0s ease;
     -o-transition: 0s ease;
     -webkit-transition: 0s ease;
