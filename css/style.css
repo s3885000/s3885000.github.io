@@ -59,11 +59,6 @@ Con khi ong define 1 the div voi class abc, sau do define nhu sau
 	font-size: 100px
 }
 
-Nhu vay, no se chi apply property font-size cho nhung the <p> thuoc class abc
-vậy làm sao tui apply vô file html ông
-
-Them class vo cac the -> define property trong file CSS. For example
-
 .abc img {
 	margin-bottom: 40px
 }
