@@ -60,7 +60,12 @@ Con khi ong define 1 the div voi class abc, sau do define nhu sau
 }
 
 .abc img {
-	margin-bottom: 40px
+	margin-bottom: 40px;
+	margin-top: 20px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 60%;
 }
 
 i {
@@ -290,13 +295,6 @@ a:hover {
     margin-right: 30px;
     margin-bottom: 0px;
 }
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-  }
 
 .oh {
     overflow: hidden;
