@@ -52,18 +52,18 @@
       <div class="row">
         <div class="grid_12">
         <h1>
-          <a href="index.html">
-            <img src="images/logo.png" alt="Logo alt">
+          <a href="Team-porfolio.html">
+            <p>The Artetacte Team</p>
           </a>
         </h1>  
           <div class="navigation ">
             <nav>
               <ul class="sf-menu">
-               <li><a href="index.html">About</a></li>
-               <li><a href="index-1.html">Services</a></li>
-               <li><a href="index-2.html">Portfolio</a></li>
-               <li class="current"><a href="index-3.html">Blog</a></li>
-               <li><a href="index-4.html">Contacts</a></li>
+               <li><a href="Team-porfolio.html">Team Porfolio</a></li>
+               <li><a href="Project-ideas.html">Project Ideas</a></li>
+               <li><a href="IT-technologies.html">Portfolio</a></li>
+               <li class="current"><a href="Feedbacks.html">Feedbacks</a></li>
+               <li><a href="Tutorials.html">Tutorials</a></li>
              </ul>
             </nav>        
             <div class="clear"></div>
