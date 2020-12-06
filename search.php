@@ -52,14 +52,14 @@
       <div class="row">
         <div class="grid_12">
         <h1>
-          <a href="Team-portfolio.html">
+          <a href="index.html">
             <p>The Artetacte Team</p>
           </a>
         </h1>  
           <div class="navigation ">
             <nav>
               <ul class="sf-menu">
-               <li><a href="Team-portfolio.html">Team Portfolio</a></li>
+               <li><a href="index.html">Team Portfolio</a></li>
                <li><a href="Project-ideas.html">Project Ideas</a></li>
                <li><a href="IT-technologies.html">Portfolio</a></li>
                <li class="current"><a href="Feedbacks.html">Feedbacks</a></li>
