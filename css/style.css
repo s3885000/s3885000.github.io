@@ -50,7 +50,22 @@ p {
     text-indent: 50px;
     font-size: large;
     margin-top: 10px;
-    margin-bottom: 10px;
+	margin-bottom: 10px;
+}
+Khi ong style nhu vay no se apply property cho tat ca cac the <p> co trong document
+Con khi ong define 1 the div voi class abc, sau do define nhu sau
+
+.abc p {
+	font-size: 100px
+}
+
+Nhu vay, no se chi apply property font-size cho nhung the <p> thuoc class abc
+vậy làm sao tui apply vô file html ông
+
+Them class vo cac the -> define property trong file CSS. For example
+
+.abc img {
+	margin-bottom: 40px
 }
 
 i {
@@ -1098,3 +1113,5 @@ header h1 a img {
         font-size: 18px !important;
     }    
 }
+
+/* Khi muon style cho 1 cum element, cover het bang 1 the div, dat class cho the div -> gan property cho cac element o trong */
