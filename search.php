@@ -53,7 +53,7 @@
         <div class="grid_12">
         <h1>
           <a href="index.html">
-            <p>The Artetacte Team</p>
+           The Artetacte Team
           </a>
         </h1>  
           <div class="navigation ">
