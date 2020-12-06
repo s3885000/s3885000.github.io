@@ -53,11 +53,11 @@ p {
 	margin-bottom: 10px;
 }
 
-.tutrorial content p {
+.tutrorial_content p {
 	font-size: 100px
 }
 
-.tutorial content img {
+.tutorial_content img {
 	margin-bottom: 40px;
 	margin-top: 20px;
 	display: block;
