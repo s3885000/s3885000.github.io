@@ -77,29 +77,89 @@
   <div class="container">
     <div class="row">
       <div class="grid_12">
-        <h3 class="ta__center">Git Essential basic commands</h3>
-         <h4 class="ta_center">	What is Git and Github?</h4>
-         <p>
-          Github is like a Wikipedia version for programmers. It’s a cloud-base hosting platform that allow users to edit and make changes on files from anywhere around the globe. 
-         Git is an open-source coding management system for tracking changes in any set of files. It originally designed to assign work among others programmers to collaborate on project during a software developement and other etcetera need when it comes to coding.
-         </p>
-         <H4 class="ta_center">How to Install Git and Github</H4>
+        <h3 class="ta__center">
+          Git Essential basic commands
+        </h3>
+      <div class="clear sep__1"></div>
+        <h4 class="ta_center">
+          What is Git and Github?
+        </h4>
+          <p>Github is like a Wikipedia version for programmers. It’s a cloud-base hosting platform that allow users to edit and make changes on files from anywhere around the globe. Git is an open-source coding management system for tracking changes in any set of files. It originally designed to assign work among others programmers to collaborate on project during a software developement and other etcetera need when it comes to coding.</p>
+        <H4 class="ta_center">
+          How to Install Git and Github
+        </H4>
           <p> First of all, you need to create a Github account. Follow by this link: <a href="https://github.com/join" target="_blank">click to page in new window</a></p>
-          <img src="images/tutorials/1.png" class="center">
-          <br />
-          <p> After done setting up your Github account, you need to log in and create a new repository. What is a repository? A repositoty is like a folder for your projects. A project’s repository hold all your project’s files and allow users to see the log history of changes.</p>
-          <img src="images/tutorials/3.png" class="center">
-          <br />
-          <p> Choose default setting for your repository.</p>
-          <img src="images/tutorials/4.png" class="center">
-          <br />
-          <p>Secondly, you need to install Git to your local machine. Follow by this link: <a href="https://git-scm.com/downloads" target="_blank">click to page in new window</a></p>
-          <img src="images/tutorials/2.png" class="center">
+            <img src="images/tutorials/1.png" class="center">
+            <p>After done setting up your Github account, you need to log in and create a new repository. What is a repository? A repositoty is like a folder for your projects. A project’s repository hold all your project’s files and allow users to see the log history of changes.</p>
+            <img src="images/tutorials/3.png" class="center">   
+            <p>Choose default setting for your repository.</p>
+            <img src="images/tutorials/4.png" class="center">
+            <p>Secondly, you need to install Git to your local machine. Follow by this link: <a href="https://git-scm.com/downloads" target="_blank">click to page in new window</a></p>
+            <img src="images/tutorials/2.png" class="center">
             <p style="font-style: italic;">*Choose compatible version for your operating systems.</p>
-          <br />
-          <p>After finish installing git on your operating system you’re ready to perform some basic Git commands. We recommend to use Visual Studio Code to perform all of Git commands due to the convenience and a free-source code editing software.</p>
-          <p></p>
-       </div>
+            <p>After finish installing git on your operating system you’re ready to perform some basic Git commands. We recommend to use Visual Studio Code to perform all of Git commands due to the convenience and a free-source code editing software.</p>
+          </p>
+      <div class="clear sep__1"></div>
+        <h4 class="ta_center">
+          Basic Git commands
+        </h4>
+          <p>There are quite few Essential Git commands every developers should know when it comes to coding.
+        <h5>1. Git config</h5>
+          <p>Git config allow users to set up a username / email address for main configuration file.</p>
+          <p>How to: <i>git config --global user.name = “&lt;your user name&gt;” and git config --global user.email = “&lt;your user.email&gt;”</i></p>
+          <img src="images/tutorials/6.png" class="center">
+        <h5>2. Git clone</h5>
+          <p>Git clone allow users to clone a repository into a new directory. e.g: your Github URL.</p>
+          <p>How to: <i>git clone &lt;URL&gt;</i></p>
+          <img src="images/tutorials/7.png" class="center">
+        <h5>3. Git status</h5>
+          <p>Git status allow user to check the status of files you’ve changed on your local machine.</p>
+          <p>How to: <i>git status</i></p>
+          <img src="images/tutorials/12.png" class="center">
+          <p style="font-style: italic;" class="center">*file content successfully committed on local machine.</p>
+          <img src="images/tutorials/13.png" class="center">
+          <p style="font-style: italic;" class="center">*file content has not committed on local machine yet.</p>
+        <h5>4. Git add</h5>
+          <p>Git add allow users to add new or change files from your local machine to your Github repository.</p>
+          <p>How to: <i>git add &lt;file_name&gt;*for specific file/ git add . *to all files</i></p>
+          <img src="images/tutorials/8.png" class="center">
+        <h5>4. Git commit</h5>
+          <p>Git commit let users to snapshot change stages on repository file.</p>
+          <p>How to: <i>git commit -m “&lt;description on changes stage of file&gt;”</i></p>
+          <img src="images/tutorials/9.png" class="center">
+        <h5>6. Git pull</h5>
+          <p>Git pull is used to download content from your Github repository to your local machine.</p>
+          <p>How to: <i>git pull</i></p>
+          <img src="images/tutorials/10.png" class="center">
+        <h5>7. Git push</h5>
+          <p>Git push command is used to upload changed content from local machine to your Github repository.</p>
+          <p>How to: <i>git push</i></p> 
+          <img src="images/tutorials/11.png" class="center">
+      <div class="clear sep__1"></div>
+        <h4 class="ta_center">
+          Resoling Conflict
+        </h4>
+          <p>When a new file was created by another user on your Github repository and you try to create a new file on your local machine with a same name but different content and try to push to Github. You will encounter a conflict. Here is how to solve the conflict between two files.</p>
+          <p>I.	Another user on your Github repository created a new file e.g: <i>test_conflict.txt</i></p>
+          <img src="images/tutorials/14.png" class="center">
+          <p>II.	Content in test_conflict.txt is "First comment from 1st user on Github”</p>
+          <img src="images/tutorials/17.png" class="center">
+          <p>III.	A new file was created on Github repository</p>
+          <img src="images/tutorials/16.png" class="center">
+          <p>IV.	A duplicated file name created by another user on his/her local machine without knowing there’s a same file already been created on Github repository.</p>
+          <img src="images/tutorials/18.png" class="center">
+          <p>V.	Then try to commit and merge to Github. As result, user will encounter conflict on his/her local machine. Visual Studio code will ask user permission to accept the current change or incoming change.</p>
+          <img src="images/tutorials/19.png" class="center">
+          <p>VI.	If accept the current change git will update current change on local machine. User on local machine needs to perform git commit and push procedure again.</p>
+          <img src="images/tutorials/20.png" class="center">
+          <p>VII.	Conflict resolved.</p>
+          <img src="images/tutorials/21.png" class="center">
+          <p>VIII.	Content updated.</p>
+          <img src="images/tutorials/22.png" class="center">
+        <h4>Branching</h4>
+          <p>Git branch is basically is like a branch of a tree. Branch is used to divide and record the flow of history. It will not affect another branch, so you can perform many changes simultaneously in the same repository.</p>
+          <img src="images/tutorials/23.png" class="center">
+      </div>
     </div>
   </div>
 </section>

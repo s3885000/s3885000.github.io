@@ -48,8 +48,13 @@ address {
 
 p {
     text-indent: 50px;
-    font-size: medium;
-    margin-bottom: 20px;
+    font-size: large;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+i {
+    font-style: italic;
 }
 
 input, textarea {
@@ -70,7 +75,7 @@ img {
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
     color: #383636;
-    font-family: 'BenchNine', sans-serif;
+    font-family: 'Pathway Gothic One', sans-serif;
 }
 
 h2 {
@@ -90,8 +95,22 @@ h3 {
 h4 {
     font-size: 40px;
     line-height: 40px;
-    padding-top: 51px;
-    margin-bottom: 32px;
+    padding-top: 50px;
+    margin-bottom: 22px;
+}
+
+h5 {
+    font-size: 24px;
+    line-height: 24px;
+    padding-top: 31px;
+    margin-bottom: 30px;
+}
+
+h6 {
+    font-size: 18px;
+    line-height: 18px;
+    padding-top: 21px;
+    margin-bottom: 20px;
 }
 
 .page1 h3 {
