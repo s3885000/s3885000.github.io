@@ -52,20 +52,18 @@ p {
     margin-top: 10px;
 	margin-bottom: 10px;
 }
-Khi ong style nhu vay no se apply property cho tat ca cac the <p> co trong document
-Con khi ong define 1 the div voi class abc, sau do define nhu sau
 
-.abc p {
+.tutrorial content p {
 	font-size: 100px
 }
 
-.abc img {
+.tutorial content img {
 	margin-bottom: 40px;
 	margin-top: 20px;
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		width: 60%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
 }
 
 i {
