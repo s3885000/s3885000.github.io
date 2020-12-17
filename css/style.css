@@ -612,7 +612,11 @@ header h1 a img {
     height: 49px;
 }
 
-
+.sep__5 {
+    padding-top: 30px;
+    margin-bottom: 29px;
+    border-bottom: 1px solid #414141;
+}
 /*******Search******/
 
 #search {
