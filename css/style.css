@@ -149,7 +149,7 @@ ul {
 .list {
     padding-top: 20px;
     margin-bottom: 36px;
-    font-size: large;
+    font-size:larger;
 }
 
 .list + h3 {
