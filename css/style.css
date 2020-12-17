@@ -52,6 +52,7 @@ p {
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: justify;
+    line-height: 1.50;
 }
 
 .tutrorial_content p {
@@ -148,6 +149,7 @@ ul {
 .list {
     padding-top: 20px;
     margin-bottom: 36px;
+    font-size: large;
 }
 
 .list + h3 {
