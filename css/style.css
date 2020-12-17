@@ -1011,6 +1011,7 @@ header h1 a img {
 
     .gall_item {
         margin-top: 40px;
+        object-fit: cover;
     }
 
     .sep__2 {
