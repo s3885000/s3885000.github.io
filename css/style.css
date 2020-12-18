@@ -50,8 +50,8 @@ address {
 p {
     text-indent: 50px;
     font-size: large;
-    margin-top: 12px;
-    margin-bottom: 15px;
+    margin-top: 18px;
+    margin-bottom: 22px;
     text-align: justify;
     line-height: 1.50;
 }
@@ -96,7 +96,7 @@ img {
   }
 
 .bullets {
-    font-size: 25px;
+    font-size: 22px;
     text-indent: 70px;
     margin-top: 28px;
     font-style: inherit;
@@ -637,6 +637,12 @@ header h1 a img {
     margin-bottom: 29px;
     border-bottom: 1px solid #414141;
 }
+
+.sep__6 {
+    padding-top: 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #414141;
+}
 /*******Search******/
 
 #search {
@@ -697,7 +703,7 @@ header h1 a img {
     color: #3a3838;
     margin-bottom: 11px;
     margin-top: 11px;
-    font: 28px/28px 'Pathway Gothic One', sans-rif;
+    font: 30px/30px 'Pathway Gothic One', sans-rif;
 }
 .text2 {
     color: #3a3838;
